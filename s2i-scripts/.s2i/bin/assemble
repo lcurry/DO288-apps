@@ -13,7 +13,7 @@ config_s2i
 echo "---> Installing application source"
 
 cp -Rf /tmp/src ./
-DATE=`date "+%F"
+DATE=`date "+%F"`
 echo "$DATE Astra..." >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
